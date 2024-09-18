@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+}
+
+header {
+    text-align: center;
+    background: #e0f7fa; /* Light Cyan */
+    color: #004d40; /* Dark Teal */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #00796b; /* Medium Teal */
+}
+
+section {
+    background: #f1f8e9; /* Light Green */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
