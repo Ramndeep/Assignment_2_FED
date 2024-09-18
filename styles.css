@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -29,4 +31,69 @@ section {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #00796b; /* Match with the h2 color */
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline; /* Clear visual cue on hover/focus */
+    outline: 2px solid #ff5722; /* Outline for accessibility */
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    header, section {
+        padding: 15px; /* Adjust padding for sections */
+    }
+
+    h1 {
+        font-size: 1.8em; /* Smaller header on mobile */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Smaller subheaders on mobile */
+    }
+}
+
+#highlights ul {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items if necessary */
+    padding: 0;
+}
+
+#highlights li {
+    flex: 1 1 30%; /* Allow items to grow/shrink */
+    margin: 5px; /* Add spacing between items */
+    background: #e0f2f1; /* Light background for items */
+    padding: 10px; /* Padding for items */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #00796b; /* Medium Teal */
+    color: white; /* White text for better contrast */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 5px 5px; /* Rounded bottom corners */
+}
+
+footer a {
+    color: white; /* White links for visibility */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover, footer a:focus {
+    text-decoration: underline; /* Underline on hover/focus for clarity */
+    outline: none; /* Remove outline */
+    color: #ffeb3b; /* Change to yellow on hover */
 }
